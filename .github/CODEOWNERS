@@ -1,0 +1,13 @@
+# 기본 담당자: 아래에 더 구체적인 규칙이 없는 파일
+* @beatles12 @papawolf42
+
+# 학습 노트별 책임 리뷰어
+/notes/01-git-basics.md @surilog @nick19850906-debug
+/notes/02-github-flow.md @nick19850906-debug @papawolf42
+/notes/03-conflict-guide.md @papawolf42 @beatles12
+/notes/04-open-source.md @beatles12 @surilog
+
+# 문서, 실습 파일, GitHub 설정
+/docs/ @papawolf42 @nick19850906-debug
+/src/practice/ @surilog @nick19850906-debug
+/.github/ @beatles12 @surilog
