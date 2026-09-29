@@ -1,0 +1,74 @@
+*   06ef0c1 Merge pull request #22 from beatles12/feature/gunwoo-keep-guide
+|\  
+| *   4c88be7 fix: Resolve delete-modify conflict by keeping sync guide
+| |\  
+| |/  
+|/|   
+* |   f721723 Merge pull request #21 from beatles12/feature/eunik-delete-guide
+|\ \  
+| * | d014145 practice: Remove sync timing practice guide
+|/ /  
+| * ec5e025 practice: Add a checklist to the sync timing guide
+|/  
+*   fd69265 Merge pull request #18 from beatles12/feature/gunwoo-stash-practice
+|\  
+| *   877c3d8 fix: Resolve merge conflict in sync-timing.md by including both start and pre-merge timings
+| |\  
+| |/  
+|/|   
+* |   dfad806 Merge pull request #17 from beatles12/feature/eunik-revert-practice
+|\ \  
+| * | a41104f practice: Revert faulty commit and update sync timing guide for pre-task
+| * | f1cf34a revert: Revert faulty feature to preserve public commit history
+| * | 8a3deb9 feat: Add faulty feature to be reverted
+* | |   6245bba Merge pull request #14 from beatles12/feature/yanghwan-reset-practice
+|\ \ \  
+| |/ /  
+|/| |   
+| * |   ce78f45 fix: Resolve merge conflict in review-request.md by preserving both reasons and results
+| |\ \  
+| |/ /  
+|/| |   
+| * | 551dab4 practice: Soft reset practice and update review request guide with test result
+| * | 5bb0b18 feat: Record soft reset practice and preserve staged changes
+| | * 2fc1ee4 practice: Stash practice and update sync timing guide for pre-merge
+| | * 9545889 feat: Restore stashed work after branch switching
+| | * 067c43d feat: Add base tracking file for stash practice
+| |/  
+|/|   
+* |   a61b344 Merge pull request #13 from beatles12/feature/sangkyo-amend-practice
+|\ \  
+| * | 5518c23 practice: Amend commit message and update review request guide with reason
+| * | 24444d3 feat: Record amend practice with corrected commit message
+| |/  
+* |   2f011c3 Merge pull request #10 from beatles12/feature/eunik-conflict-guide
+|\ \  
+| |/  
+|/|   
+| * d8b5259 docs: Add git merge --abort tip based on review
+| * c98a789 feat: Add notes/03-conflict-guide.md explaining conflict causes and markers
+* |   b6a572a Merge pull request #9 from beatles12/feature/gunwoo-open-source
+|\ \  
+| * | 7552a91 docs: Add PR self-checklist based on review feedback
+| * | 9ba5a28 feat: Add notes/04-open-source.md on open source PR practices
+* | |   7807707 Merge pull request #6 from beatles12/feature/sangkyo-git-basics
+|\ \ \  
+| |_|/  
+|/| |   
+| * | 04e73f5 docs: Add git status explanation based on review feedback
+| * | 64c2a54 feat: Add notes/01-git-basics.md explaining git three areas
+| |/  
+* |   dfa9ab9 Merge pull request #5 from beatles12/feature/yanghwan-github-flow
+|\ \  
+| |/  
+|/|   
+| * 9cf8ebd docs: Add branch deletion guideline after merge
+| * 68eaf43 feat: Add notes/02-github-flow.md detailing branch lifecycle
+|/  
+*   880b8e1 Merge pull request #2 from beatles12/feature/sangkyo-setup-v2
+|\  
+| * 61f4cce docs: Add CONTRIBUTING guide, PR template, and practice seed files
+|/  
+* 31cd609 docs: Initialize project repository with basic README.md
+* b310ea3 docs: Add CONTRIBUTING guide, PR template, and practice seed files
+* 083f3f4 docs: Initialize project repository with basic README.md
