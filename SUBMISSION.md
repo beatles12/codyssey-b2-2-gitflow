@@ -1,16 +1,17 @@
 # B2-2 최종 평가 제출 인덱스
 
 - 저장소: [beatles12/codyssey-b2-2-gitflow](https://github.com/beatles12/codyssey-b2-2-gitflow)
-- 확인 기준: 2026-09-29 / main `06ef0c10efeba1d9ecfff7a2d59bae0f617b417f`
-- 최종 정리 이슈: [#23](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/23)
-- 최종 제출 PR: 아직 생성 전. 생성 후 이 줄을 실제 PR 링크로 갱신한다.
-- 아래 PR 목록은 확인 시점에 병합된 PR만 포함한다. 최종 제출 PR과 그 리뷰는 완료 건수에 포함하지 않는다.
+- 확인 기준: 2026-09-29, PR #28 병합 직후 main `f25c75c7e9137451ee5d3291b01c20e2d19b3997`
+- 최종 제출 PR: [PR #24 — 병합 완료](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/24)
+- 보너스 PR: [#26](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/26), [#28](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/28) — 모두 병합 완료
+- PR 병합 여부와 각 실습
+ 증빙의 완결 여부는 구분해서 기록한다.
 
 ## 1. 팀원별 기여도 증빙
 
 | 팀원·GitHub 계정 | 역할 | 생성한 이슈 | 병합된 본인 PR | 작성한 동료 리뷰 | 본인 PR 피드백 반영 | 트러블슈팅 |
 |---|---|---|---|---|---|---|
-| 김상교 (`beatles12`) | 호스트·amend | [#1](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/1), [#4](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/4), [#11](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/11), [#23](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/23) | [PR #2](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/2), [PR #6](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/6), [PR #13](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/13); 최종 제출 PR은 아직 생성 전 | [#9 리뷰](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/9#discussion_r4130342783), [#17 리뷰](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/17#discussion_r4130699673), [#21 리뷰](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/21#discussion_r4130998461) | [답글](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/6#discussion_r4130327381) / [수정 커밋](https://github.com/beatles12/codyssey-b2-2-gitflow/commit/04e73f57662dc05fe0ed84fba13e1a20c2cd2d34) | [증빙](docs/evidence/sangkyo-amend.md) |
+| 김상교 (`beatles12`) | 호스트·amend | [#1](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/1), [#4](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/4), [#11](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/11), [#23](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/23) | [PR #2](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/2), [PR #6](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/6), [PR #13](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/13); [최종 제출 #24](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/24), [CODEOWNERS #26](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/26), [rebase 증빙 #28](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/28) — 병합 완료 | [#9 리뷰](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/9#discussion_r4130342783), [#17 리뷰](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/17#discussion_r4130699673), [#21 리뷰](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/21#discussion_r4130998461) | [답글](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/6#discussion_r4130327381) / [수정 커밋](https://github.com/beatles12/codyssey-b2-2-gitflow/commit/04e73f57662dc05fe0ed84fba13e1a20c2cd2d34) | [증빙](docs/evidence/sangkyo-amend.md) |
 | 장양환 (`surilog`) | reset·충돌 1 | [#3](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/3), [#12](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/12) | [PR #5](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/5), [PR #14](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/14) | [#2 리뷰](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/2#discussion_r4129609129), [#6 리뷰](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/6#discussion_r4130296198), [#18 리뷰](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/18#discussion_r4130871572), [#22 리뷰](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/22#discussion_r4131086126) | [답글](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/5#discussion_r4130279945) / [수정 커밋](https://github.com/beatles12/codyssey-b2-2-gitflow/commit/9cf8ebdbd3e59d78e83be23f3bcd367ac8041c3f) | [증빙](docs/evidence/yanghwan-reset.md) |
 | 조은익 (`nick19850906-debug`) | revert·삭제 | [#8](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/8), [#16](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/16), [#20](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/20) | [PR #10](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/10), [PR #17](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/17), [PR #21](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/21) | [#5 리뷰](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/5#discussion_r4130256916), [#13 리뷰](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/13#discussion_r4130518024) | [답글](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/10#discussion_r4130381744) / [수정 커밋](https://github.com/beatles12/codyssey-b2-2-gitflow/commit/d8b5259581d4fb32f13cc2331742aea1dc731d69) | [증빙](docs/evidence/eunik-revert.md) |
 | 김건우 (`papawolf42`) | stash·충돌 2·3 | [#7](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/7), [#15](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/15), [#19](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/19) | [PR #9](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/9), [PR #18](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/18), [PR #22](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/22) | [#10 리뷰](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/10#discussion_r4130362745), [#14 리뷰](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/14#discussion_r4130573312) | [답글](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/9#discussion_r4130349921) / [수정 커밋](https://github.com/beatles12/codyssey-b2-2-gitflow/commit/7552a917fc1c68e7c9ee98b9f723ba3ac080d1da) | [증빙](docs/evidence/gunwoo-stash.md) — 실제 출력 보완 필요 |
@@ -27,8 +28,40 @@
 - [x] [충돌 상세 증빙](docs/evidence/): content 충돌 2건과 삭제/수정 충돌 1건 존재
 - [x] [충돌 종합 보고서](docs/conflict-resolution.md): 제7부에서 작성 후 확인
 - [x] [트러블슈팅 종합 기록](docs/troubleshooting-log.md): 제7부에서 작성 후 확인
-- [x] [stash 실행 증빙](docs/evidence/gunwoo-stash.md): 실제 출력 3곳 보완 필요
+- [ ] [stash 실행 증빙](docs/evidence/gunwoo-stash.md): 보관 전 diff, stash list, 복원 후 diff의 실제 출력 3곳 보완 필요
 - [x] [Git 이력](docs/git-history.txt): Step 7-7에서 생성 후 확인
 - [x] 최종 제출 (https://github.com/beatles12/codyssey-b2-2-gitflow/pull/24), 김건우 리뷰 및 최종 병합
 
 증빙 파일은 총 7개 존재하지만, 파일 존재와 내용의 완결 여부는 다르다. 완료하지 않은 항목은 완료로 표시하지 않는다.
+
+## 선택 보너스: 히스토리 정리와 리뷰어 자동화
+
+- 설정 이슈: [#25](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/25)
+- CODEOWNERS 설정 PR: [#26](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/26) — 병합 완료
+- 히스토리 정리 이슈: [#27](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/27)
+- rebase·자동 리뷰 확인 PR: [#28](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/28) — 2026-09-29 19:22:17 KST 병합 완료
+- [김건우의 PR #28 승인](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/28#pullrequestreview-5351052238)
+
+### 히스토리 정리 기록
+- 수행자: 김상교 (beatles12)
+- 범위: 최초 push 전의 개인 feature 브랜치
+- 사용한 작업: reword, squash, pick
+- 증빙에 기록된 정리 전: 7c62fec → 27b2411 → 82cc811 (3개)
+- 원격에서 확인되는 정리 후: 5cfb318 → 04b1a83 (2개)
+- 내용 보존: 실습 증빙에 git diff 출력 없음, 종료 코드 0으로 기록됨
+- [정리 전후 로그 및 비교 결과](docs/evidence/sangkyo-rebase.md)
+
+### CODEOWNERS 확인 기록
+- 설정 파일: [.github/CODEOWNERS](.github/CODEOWNERS)
+- 적용 규칙: /docs/ @papawolf42 @nick19850906-debug
+- 요청된 계정: 김건우(papawolf42), 조은익(nick19850906-debug)
+- 자동 요청 생성 시각: 2026-09-29 18:48:22 KST
+- [자동 요청 이벤트와 확인 결과](docs/evidence/codeowners-review.md)
+
+### 확인 상태
+- [x] CODEOWNERS 설정 PR #26 병합
+- [x] reword/squash 전후 이력 기록
+- [x] PR #28의 code owners 리뷰 요청 기록 확인
+- [x] 보너스 PR #28 승인 및 병합
+
+증빙 파일은 기존 7개와 보너스 2개를 합쳐 총 9개다. 파일 수가 9개라는 사실이 모든 증빙 내용의 완성을 뜻하지는 않는다. stash 실제 출력 3곳은 별도로 보완해야 한다.
