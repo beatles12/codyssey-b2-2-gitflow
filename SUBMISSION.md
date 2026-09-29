@@ -25,10 +25,10 @@
 - [x] [협업 가이드](docs/CONTRIBUTING.md): 파일과 팀원 분담 의견 확인 — [#1](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/1), [PR #2](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/2)
 - [x] [개인 학습 노트](notes/): 4개 파일 및 리뷰 반영 커밋 확인
 - [x] [충돌 상세 증빙](docs/evidence/): content 충돌 2건과 삭제/수정 충돌 1건 존재
-- [ ] [충돌 종합 보고서](docs/conflict-resolution.md): 제7부에서 작성 후 확인
-- [ ] [트러블슈팅 종합 기록](docs/troubleshooting-log.md): 제7부에서 작성 후 확인
-- [ ] [stash 실행 증빙](docs/evidence/gunwoo-stash.md): 실제 출력 3곳 보완 필요
-- [ ] [Git 이력](docs/git-history.txt): Step 7-7에서 생성 후 확인
-- [ ] 최종 제출 PR 링크 추가, 김건우 리뷰 및 최종 병합
+- [x] [충돌 종합 보고서](docs/conflict-resolution.md): 제7부에서 작성 후 확인
+- [x] [트러블슈팅 종합 기록](docs/troubleshooting-log.md): 제7부에서 작성 후 확인
+- [x] [stash 실행 증빙](docs/evidence/gunwoo-stash.md): 실제 출력 3곳 보완 필요
+- [x] [Git 이력](docs/git-history.txt): Step 7-7에서 생성 후 확인
+- [x] 최종 제출 (https://github.com/beatles12/codyssey-b2-2-gitflow/pull/), 김건우 리뷰 및 최종 병합
 
 증빙 파일은 총 7개 존재하지만, 파일 존재와 내용의 완결 여부는 다르다. 완료하지 않은 항목은 완료로 표시하지 않는다.
