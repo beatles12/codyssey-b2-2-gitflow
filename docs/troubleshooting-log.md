@@ -30,12 +30,13 @@
 - **주의점**: 공유 이력을 지우지 않고 취소 내용을 새 커밋으로 남김.
 - **관련 링크**: [#16](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/16), [PR #17](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/17), [revert 증빙](evidence/eunik-revert.md)
 
-## 4. stash / pop — 김건우 (실행 출력 보완 필요)
-- **상황**: 파일을 수정하던 중 main 브랜치를 확인한 뒤 작업을 복원하는 실습.
-- **문서에 적힌 절차**: `git stash push` → main 전환 → 원래 브랜치 복귀 → `git stash pop`.
-- **원격에서 확인한 기준 파일 커밋**: [067c43d](https://github.com/beatles12/codyssey-b2-2-gitflow/commit/067c43d4b9f4331d83d85eb8f96c8a0b101170c0)
-- **원격에서 확인한 복원 커밋**: [9545889](https://github.com/beatles12/codyssey-b2-2-gitflow/commit/95458897008bab7a78d8e78c30190d505f45f184). 실제 변경에는 `작업 중이던 미완성 추가 라인` 추가가 포함됨.
-- **확인 한계**: 현재 stash 증빙의 보관 전 diff, stash 목록, 복원 후 diff는 입력 안내 문구로 남아 있음. 커밋만으로 stash/pop 실행과 전후 일치까지 확인할 수는 없음.
-- **남은 작업**: 당시 실제 출력이 있으면 첨부. 없다면 재실습 날짜와 별도 기록임을 명시해 수행한 뒤 증빙을 보완함.
-- **주의점**: 현재 커밋에서 계산한 diff를 과거 터미널 실행 기록인 것처럼 넣지 않음.
-- **관련 링크**: [#15](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/15), [PR #18](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/18), [stash 증빙](evidence/gunwoo-stash.md)
+## 4. stash / pop — 김건우 요청, Codex 실행으로 재실습 증빙 보완
+- **상황**: 미완성 변경을 보관한 뒤 main을 확인하고 작업 브랜치로 돌아와 복원.
+- **실행 시각**: 2026-09-29T20:16:29+09:00
+- **참여**: 김건우(papawolf42)가 보완을 요청하고 Codex가 별도 복제본에서 실제 명령 실행 및 기록 작성.
+- **명령**: `git stash push -m stash-rerun-before-branch-switch -- src/practice/gunwoo-recovery.txt` → `git checkout main` → 작업 브랜치 복귀 → `git stash pop`.
+- **결과**: 보관 후 작업 공간이 깨끗하고 main에서 기준 내용이 유지됨. pop 후 보관 전후 diff 및 파일 SHA-256이 동일하며 stash 목록이 비어 있음.
+- **선택 이유**: 커밋할 단계가 아닌 미완성 작업을 잠시 보관하는 상황이므로 stash를 사용함.
+- **기록 범위**: 과거 기록의 누락을 새 재실습으로 보완함. 기존 PR #18의 실행 출력을 복원하거나 사람이 직접 입력한 기록으로 주장하지 않음.
+- **주의점**: stash는 로컬 기록이며 pop 충돌 시 상태 확인 필요. 공유 main의 초기화나 강제 push는 하지 않음.
+- **관련 링크**: [기존 PR #18](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/18), [보완 이슈 #32](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/32), [실제 명령·출력과 전후 비교](evidence/gunwoo-stash.md)
