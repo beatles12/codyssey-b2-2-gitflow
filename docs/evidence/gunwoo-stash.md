@@ -6,6 +6,7 @@
 - 재실습 시작 시각: 2026-09-29T20:16:29+09:00 (KST)
 - 재실습 브랜치: `feature/gunwoo-stash-evidence-fix`
 - 출발 커밋: `f25c75c7e9137451ee5d3291b01c20e2d19b3997`
+- 보완 PR: [#33](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/33)
 - 보완 이슈: [#32](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/32)
 - 기존 실습: [이슈 #15](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/15), [PR #18](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/18)
 

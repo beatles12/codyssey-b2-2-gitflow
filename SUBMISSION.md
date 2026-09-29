@@ -66,6 +66,7 @@
 증빙 파일은 기존 7개와 보너스 2개를 합쳐 총 9개다. 파일 수가 9개라는 사실이 모든 증빙 내용의 완성을 뜻하지는 않는다. stash 실제 출력 3곳은 2026-09-29 Codex 실행 재실습 기록으로 보완했다. 이는 과거 출력이나 학습자가 직접 실행한 기록을 복원한 것은 아니다.
 
 ## stash 증빙 보완 추적
+- [stash 증빙 보완 PR #33](https://github.com/beatles12/codyssey-b2-2-gitflow/pull/33) — 승인·병합 상태는 PR에서 확인
 - [보완 이슈 #32](https://github.com/beatles12/codyssey-b2-2-gitflow/issues/32)
 - 요청자: 김건우(papawolf42), 실행·기록: Codex
 - 실제 재실습 출발점: PR #28 병합 커밋 f25c75c
