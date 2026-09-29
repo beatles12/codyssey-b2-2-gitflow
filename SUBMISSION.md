@@ -29,6 +29,6 @@
 - [x] [트러블슈팅 종합 기록](docs/troubleshooting-log.md): 제7부에서 작성 후 확인
 - [x] [stash 실행 증빙](docs/evidence/gunwoo-stash.md): 실제 출력 3곳 보완 필요
 - [x] [Git 이력](docs/git-history.txt): Step 7-7에서 생성 후 확인
-- [x] 최종 제출 (https://github.com/beatles12/codyssey-b2-2-gitflow/pull/), 김건우 리뷰 및 최종 병합
+- [x] 최종 제출 (https://github.com/beatles12/codyssey-b2-2-gitflow/pull/24), 김건우 리뷰 및 최종 병합
 
 증빙 파일은 총 7개 존재하지만, 파일 존재와 내용의 완결 여부는 다르다. 완료하지 않은 항목은 완료로 표시하지 않는다.
